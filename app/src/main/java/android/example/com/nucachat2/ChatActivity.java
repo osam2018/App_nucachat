@@ -63,7 +63,7 @@ public class ChatActivity extends AppCompatActivity {
 
     private void addMessage(DataSnapshot dataSnapshot, ArrayAdapter<String> adapter) {
         ChatDTO chatDTO = dataSnapshot.getValue(ChatDTO.class);
-        adapter.add(chatDTO.getUserName() + " : " + chatDTO.getMessage() + " " + chatDTO.getMytime());
+        adapter.add(chatDTO.getUserName() + " : " + chatDTO.getMessage() + " / " + chatDTO.getMytime());
     }
 
     private void removeMessage(DataSnapshot dataSnapshot, ArrayAdapter<String> adapter) {
