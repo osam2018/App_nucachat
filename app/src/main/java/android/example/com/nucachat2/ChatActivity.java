@@ -1,9 +1,11 @@
 package android.example.com.nucachat2;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -47,10 +49,9 @@ public class ChatActivity extends AppCompatActivity {
         USER_NAME = intent.getStringExtra("userName");
 
         //채팅방 이름 보여줄 textview
-        TextView chat_room = new TextView(this);
-        chat_room.setText(CHAT_NAME);
-        chat_view.addHeaderView(chat_room);
-
+        TextView room_name;
+        room_name = (TextView) findViewById(R.id.room_name);
+        room_name.setText(CHAT_NAME);
         // 채팅 방 입장
         openChat(CHAT_NAME);
 
