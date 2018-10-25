@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "370774979197",
+    "firebase_url": "https://nukatalk.firebaseio.com",
+    "project_id": "nukatalk",
+    "storage_bucket": "nukatalk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370774979197:android:81c67a569d0761c7",
+        "android_client_info": {
+          "package_name": "android.example.com.nucachat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370774979197-smv7qs0i9iucdta5664jfqvbuffeo04g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZi0oyTmld4fG5ydULtS6cHrVocPQMiPo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
